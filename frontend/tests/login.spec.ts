@@ -1,8 +1,10 @@
 import { test, expect } from "@playwright/test";
 
-test("validation, password visibility, remember preference and recovery", async ({ page }) => {
+test("validation, password visibility and remember preference", async ({ page }) => {
   await page.goto("/login");
-  await expect(page.getByRole("heading", { name: "Добро пожаловать", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Вход в систему", exact: true })).toBeVisible();
+  await page.getByLabel("Логин", { exact: true }).fill("");
+  await page.getByLabel("Пароль", { exact: true }).fill("");
   await page.getByRole("button", { name: "Войти", exact: true }).click();
   await expect(page.locator("#username-error")).toBeVisible();
   await expect(page.locator("#password-error")).toBeVisible();
@@ -14,10 +16,6 @@ test("validation, password visibility, remember preference and recovery", async 
   await expect(page.getByRole("checkbox")).toBeChecked();
   await page.getByRole("checkbox").uncheck();
   await expect(page.getByRole("checkbox")).not.toBeChecked();
-  await page.getByRole("button", { name: "Забыли пароль?" }).click();
-  await expect(page.getByRole("dialog")).toBeVisible();
-  await page.keyboard.press("Escape");
-  await expect(page.getByRole("dialog")).not.toBeVisible();
 });
 
 test("shows loading and credential error, allows retry", async ({ page }) => {
@@ -28,7 +26,7 @@ test("shows loading and credential error, allows retry", async ({ page }) => {
     await route.fulfill({ status: 401, contentType: "application/json", body: JSON.stringify({ message: "Неверный логин или пароль" }) });
   });
   await page.goto("/login");
-  await page.getByLabel("Логин, телефон или email").fill("manager");
+  await page.getByLabel("Логин", { exact: true }).fill("manager");
   await page.getByLabel("Пароль", { exact: true }).fill("wrong");
   await page.getByRole("button", { name: "Войти", exact: true }).click();
   await expect(page.getByRole("button", { name: "Входим…" })).toBeDisabled();
@@ -57,7 +55,7 @@ test("proxy rejects malformed and cross-origin requests", async ({ request }) =>
 for (const remember of [true, false]) {
   test(`real API login, cookie and logout (remember=${remember})`, async ({ page, context }) => {
     await page.goto("/login");
-    await page.getByLabel("Логин, телефон или email").fill("manager@example.com");
+    await page.getByLabel("Логин", { exact: true }).fill("manager@example.com");
     await page.getByLabel("Пароль", { exact: true }).fill("E2eTestPassword!");
     await page.getByRole("checkbox").setChecked(remember);
     const responsePromise = page.waitForResponse("**/api/v1/auth/login");

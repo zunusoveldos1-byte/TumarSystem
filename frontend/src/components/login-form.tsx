@@ -1,8 +1,8 @@
 "use client";
 
-import { Check, Eye, EyeOff, LoaderCircle, LockKeyhole, UserRound, X } from "lucide-react";
+import { Check, Eye, EyeOff, LoaderCircle, LockKeyhole, UserRound } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useRef, useState, type FormEvent } from "react";
+import { useState, type FormEvent } from "react";
 
 export function LoginForm() {
   const router = useRouter();
@@ -11,7 +11,6 @@ export function LoginForm() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
   const [fields, setFields] = useState<{ username?: string; password?: string }>({});
-  const recovery = useRef<HTMLDialogElement>(null);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -52,10 +51,10 @@ export function LoginForm() {
   return <>
     <form onSubmit={submit} noValidate className="login-form" aria-busy={loading}>
       <div className="field-group">
-        <label htmlFor="username">Логин, телефон или email</label>
+        <label htmlFor="username">Логин</label>
         <div className={`input-shell ${fields.username ? "invalid" : ""}`}>
           <UserRound size={18} aria-hidden="true" />
-          <input id="username" name="username" autoComplete="username" placeholder="Введите логин"
+          <input id="username" name="username" autoComplete="username" defaultValue="admin"
             maxLength={254} required disabled={loading || success} aria-invalid={!!fields.username}
             aria-describedby={fields.username ? "username-error" : undefined} />
         </div>
@@ -66,7 +65,7 @@ export function LoginForm() {
         <div className={`input-shell ${fields.password ? "invalid" : ""}`}>
           <LockKeyhole size={18} aria-hidden="true" />
           <input id="password" name="password" type={visible ? "text" : "password"}
-            autoComplete="current-password" placeholder="Введите пароль" required
+            autoComplete="current-password" defaultValue="password" required
             disabled={loading || success} aria-invalid={!!fields.password}
             aria-describedby={fields.password ? "password-error" : undefined} />
           <button type="button" className="password-toggle" onClick={() => setVisible(!visible)}
@@ -82,22 +81,13 @@ export function LoginForm() {
           <span className="checkbox-mark" aria-hidden="true"><Check size={15} strokeWidth={3} /></span>
           <span>Запомнить меня</span>
         </label>
-        <button className="recovery-link" type="button" onClick={() => recovery.current?.showModal()}>Забыли пароль?</button>
       </div>
       {error && <p className="form-error" role="alert">{error}</p>}
       <button type="submit" className="login-button" disabled={loading || success}>
         {loading ? <><LoaderCircle size={19} className="animate-spin" /> Входим…</> :
-          success ? <><Check size={19} /> Вход выполнен</> : "Войти"}
+          success ? <><Check size={19} /> Вход выполнен</> : <><span>Войти</span><span className="button-arrow" aria-hidden="true">→</span></>}
       </button>
       <span role="status" className="sr-only">{success ? "Вход выполнен. Открываем личный кабинет." : loading ? "Проверяем данные" : ""}</span>
     </form>
-    <dialog ref={recovery} className="recovery-dialog" aria-labelledby="recovery-title"
-      onClick={event => { if (event.target === event.currentTarget) recovery.current?.close(); }}>
-      <button className="dialog-close" aria-label="Закрыть" onClick={() => recovery.current?.close()}><X size={20} /></button>
-      <div className="dialog-icon"><LockKeyhole size={24} /></div>
-      <h2 id="recovery-title">Восстановление доступа</h2>
-      <p>Обратитесь к администратору вашего клуба, чтобы восстановить доступ к учётной записи.</p>
-      <button className="login-button" onClick={() => recovery.current?.close()}>Понятно</button>
-    </dialog>
   </>;
 }
