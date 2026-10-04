@@ -1,0 +1,11 @@
+### Result
+"{\"overflow\":390,\"heading\":\"TumarSystem —умная системадля бильярдных клубов\"}"
+### Ran Playwright code
+```js
+await page.evaluate('() => (JSON.stringify({overflow:document.documentElement.scrollWidth,heading:document.querySelector(\'h1\')?.textContent}))');
+```
+### Page
+- Page URL: http://localhost:3101/
+- Page Title: TumarSystem — система управления бильярдным клубом
+### Events
+- New console entries: .playwright-cli\console-2026-10-04T11-35-00-978Z.log#L445-L453

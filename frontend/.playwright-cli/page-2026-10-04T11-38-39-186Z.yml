@@ -1,0 +1,421 @@
+- generic [ref=f1e2]:
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "TumarSystem" [ref=f1e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Главная" [ref=f1e11]:
+        - link "Главная" [ref=f1e12] [cursor=pointer]:
+          - /url: /
+        - link "Возможности" [ref=f1e13] [cursor=pointer]:
+          - /url: /features
+        - link "Цены" [ref=f1e14] [cursor=pointer]:
+          - /url: /pricing
+        - link "Контакты" [ref=f1e15] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f1e16]:
+        - generic [ref=f1e17]: Система онлайн
+        - generic "Language" [ref=f1e19]:
+          - button "KG" [ref=f1e20] [cursor=pointer]
+          - button "RU" [pressed] [ref=f1e21] [cursor=pointer]
+          - button "EN" [ref=f1e22] [cursor=pointer]
+        - link "Войти" [ref=f1e23] [cursor=pointer]:
+          - /url: /login
+  - main [ref=f1e26]:
+    - generic [ref=f1e31]:
+      - generic [ref=f1e32]:
+        - heading "TumarSystem — умная система для бильярдных клубов" [level=1] [ref=f1e33]:
+          - generic [ref=f1e34]: TumarSystem —
+          - generic [ref=f1e35]: умная система
+          - generic [ref=f1e36]: для бильярдных клубов
+        - paragraph [ref=f1e37]:
+          - generic [ref=f1e38]: Касса, смены, клуб и CRM — всё в одном.
+          - generic [ref=f1e39]: Работает на телефоне, планшете, ноутбуке и Arduino.
+        - link "Начать" [ref=f1e40] [cursor=pointer]:
+          - /url: /register
+      - generic "Аналитика · Демонстрационные данные" [ref=f1e44]:
+        - complementary [ref=f1e45]:
+          - generic [ref=f1e50]:
+            - generic [ref=f1e51]: Касса
+            - generic [ref=f1e55]: Смена
+            - generic [ref=f1e63]: Клуб
+            - generic [ref=f1e69]: Клиенты
+            - generic [ref=f1e75]: CRM
+            - generic [ref=f1e79]: Настройки
+        - generic [ref=f1e83]:
+          - generic [ref=f1e84]:
+            - generic [ref=f1e85]: 03.10.2026 18:42
+            - generic [ref=f1e90]:
+              - text: Оператор
+              - generic [ref=f1e91]: admin
+          - generic [ref=f1e92]:
+            - generic [ref=f1e93]:
+              - generic [ref=f1e94]: Касса
+              - strong [ref=f1e95]: Продажа
+            - generic [ref=f1e96]:
+              - generic [ref=f1e97]:
+                - generic [ref=f1e98]: Сумма
+                - strong [ref=f1e99]: 24 800 ₸
+                - generic [ref=f1e100]: ↑ 12%
+              - generic [ref=f1e101]:
+                - generic [ref=f1e102]: Посетители
+                - strong [ref=f1e103]: "8"
+                - generic [ref=f1e104]: ↑ 2%
+              - generic [ref=f1e105]:
+                - generic [ref=f1e106]: Средний чек
+                - strong [ref=f1e107]: 3 100 ₸
+                - generic [ref=f1e108]: ↑ 6%
+            - heading "Аналитика" [level=2] [ref=f1e109]
+            - generic [ref=f1e110]:
+              - generic [ref=f1e111]:
+                - heading "Выручка за неделю" [level=3] [ref=f1e112]
+                - img "Выручка за неделю" [ref=f1e113]:
+                  - generic [ref=f1e114]: 120 000
+                  - generic [ref=f1e117]: 90 000
+                  - generic [ref=f1e120]: 60 000
+                  - generic [ref=f1e123]: 30 000
+                  - generic [ref=f1e126]: "0"
+                  - generic [ref=f1e147]: Пн
+                  - generic [ref=f1e148]: Вт
+                  - generic [ref=f1e149]: Ср
+                  - generic [ref=f1e150]: Чт
+                  - generic [ref=f1e151]: Пт
+                  - generic [ref=f1e152]: Сб
+                  - generic [ref=f1e153]: Вс
+              - generic [ref=f1e154]:
+                - generic [ref=f1e155]:
+                  - heading "Посещаемость" [level=3] [ref=f1e156]
+                  - generic [ref=f1e157]:
+                    - generic [ref=f1e158]:
+                      - generic [ref=f1e159]: "60"
+                      - generic [ref=f1e160]: "40"
+                      - generic [ref=f1e161]: "20"
+                      - generic [ref=f1e162]: "0"
+                    - generic [ref=f1e163]: Пн
+                    - generic [ref=f1e166]: Вт
+                    - generic [ref=f1e169]: Ср
+                    - generic [ref=f1e172]: Чт
+                    - generic [ref=f1e175]: Пт
+                    - generic [ref=f1e178]: Сб
+                    - generic [ref=f1e181]: Вс
+                - generic [ref=f1e184]:
+                  - heading "Загрузка клуба" [level=3] [ref=f1e185]
+                  - generic [ref=f1e186]:
+                    - generic [ref=f1e187]: 68%
+                    - list [ref=f1e189]:
+                      - listitem [ref=f1e190]:
+                        - text: Заняты
+                        - strong [ref=f1e192]: "6"
+                      - listitem [ref=f1e193]:
+                        - text: Свободны
+                        - strong [ref=f1e195]: "3"
+                      - listitem [ref=f1e196]:
+                        - text: Всего
+                        - strong [ref=f1e198]: "9"
+            - generic [ref=f1e199]: Демонстрационные данные
+      - generic [ref=f1e200]:
+        - link "Телефон Управление с телефона" [ref=f1e201] [cursor=pointer]:
+          - /url: /features
+          - strong [ref=f1e208]: Телефон
+          - generic [ref=f1e209]: Управление с телефона
+        - link "Сайт Доступ через браузер" [ref=f1e210] [cursor=pointer]:
+          - /url: /features
+          - strong [ref=f1e221]: Сайт
+          - generic [ref=f1e222]: Доступ через браузер
+        - link "Ноутбук Касса и аналитика" [ref=f1e223] [cursor=pointer]:
+          - /url: /features
+          - strong [ref=f1e228]: Ноутбук
+          - generic [ref=f1e229]: Касса и аналитика
+        - link "Arduino Управление светом" [ref=f1e230] [cursor=pointer]:
+          - /url: /smart
+          - strong [ref=f1e240]: Arduino
+          - generic [ref=f1e241]: Управление светом
+    - generic [ref=f1e243]:
+      - generic [ref=f1e244]:
+        - generic [ref=f1e245]:
+          - generic [ref=f1e246]: 01 / MANAGEMENT
+          - heading "Одна система — весь клуб" [level=2] [ref=f1e247]
+        - paragraph [ref=f1e248]: "От первой брони до закрытия смены: ключевые процессы собраны в едином интерфейсе."
+      - generic [ref=f1e249]:
+        - generic [ref=f1e250]:
+          - heading "Столы" [level=3] [ref=f1e256]
+          - paragraph [ref=f1e257]: Статус, время игры и свет
+          - generic [ref=f1e258]: "01"
+        - generic [ref=f1e259]:
+          - heading "Касса" [level=3] [ref=f1e264]
+          - paragraph [ref=f1e265]: Оплаты и операции
+          - generic [ref=f1e266]: "02"
+        - generic [ref=f1e267]:
+          - heading "Смены" [level=3] [ref=f1e271]
+          - paragraph [ref=f1e272]: Открытие и завершение
+          - generic [ref=f1e273]: "03"
+        - generic [ref=f1e274]:
+          - heading "Бронирования" [level=3] [ref=f1e278]
+          - paragraph [ref=f1e279]: Расписание без накладок
+          - generic [ref=f1e280]: "04"
+        - generic [ref=f1e281]:
+          - heading "Клиенты" [level=3] [ref=f1e286]
+          - paragraph [ref=f1e287]: История посещений
+          - generic [ref=f1e288]: "05"
+        - generic [ref=f1e289]:
+          - heading "CRM" [level=3] [ref=f1e294]
+          - paragraph [ref=f1e295]: Связь с постоянными гостями
+          - generic [ref=f1e296]: "06"
+        - generic [ref=f1e297]:
+          - heading "Сотрудники" [level=3] [ref=f1e301]
+          - paragraph [ref=f1e302]: Доступ по ролям
+          - generic [ref=f1e303]: "07"
+        - generic [ref=f1e304]:
+          - heading "Тарифы" [level=3] [ref=f1e308]
+          - paragraph [ref=f1e309]: Гибкие правила игры
+          - generic [ref=f1e310]: "08"
+        - generic [ref=f1e311]:
+          - heading "Аналитика" [level=3] [ref=f1e317]
+          - paragraph [ref=f1e318]: Картина работы клуба
+          - generic [ref=f1e319]: "09"
+        - generic [ref=f1e320]:
+          - heading "Smart Lighting" [level=3] [ref=f1e324]
+          - paragraph [ref=f1e325]: Сценарии освещения
+          - generic [ref=f1e326]: "10"
+        - generic [ref=f1e327]:
+          - heading "Arduino / ESP32" [level=3] [ref=f1e332]
+          - paragraph [ref=f1e333]: Связь с оборудованием
+          - generic [ref=f1e334]: "11"
+        - generic [ref=f1e335]:
+          - heading "Уведомления" [level=3] [ref=f1e342]
+          - paragraph [ref=f1e343]: Важные события
+          - generic [ref=f1e344]: "12"
+      - link "Возможности" [ref=f1e345] [cursor=pointer]:
+        - /url: /features
+    - generic [ref=f1e349]:
+      - generic [ref=f1e350]:
+        - generic [ref=f1e351]: 02 / RELATIONSHIPS
+        - heading "TumarSystem CRM BETA" [level=2] [ref=f1e352]:
+          - text: TumarSystem CRM
+          - generic [ref=f1e353]: BETA
+        - paragraph [ref=f1e354]: "Понимайте гостей лучше: профиль, посещения, историю игр, бронирования, любимые тарифы, бонусы и заметки в одном месте."
+        - generic [ref=f1e355]: CRM находится в стадии Beta. Мы постепенно расширяем её возможности.
+        - link "CRM" [ref=f1e357] [cursor=pointer]:
+          - /url: /crm
+      - generic [ref=f1e360]:
+        - generic [ref=f1e361]:
+          - generic [ref=f1e362]:
+            - generic [ref=f1e363]: CRM / ПРОФИЛЬ ГОСТЯ
+            - generic [ref=f1e364]: •••
+          - generic [ref=f1e365]: A
+          - strong [ref=f1e366]: A. K.
+          - generic [ref=f1e367]: Профиль гостя · BETA
+          - generic [ref=f1e368]:
+            - generic [ref=f1e369]:
+              - generic [ref=f1e370]: Посещения
+              - strong [ref=f1e371]: —
+            - generic [ref=f1e372]:
+              - generic [ref=f1e373]: История игр
+              - strong [ref=f1e374]: —
+            - generic [ref=f1e375]:
+              - generic [ref=f1e376]: Предпочтения
+              - strong [ref=f1e377]: —
+          - generic [ref=f1e378]: ✦
+        - generic [ref=f1e382]: CRM ● BETA
+    - generic [ref=f1e384]:
+      - generic [ref=f1e385]:
+        - generic [ref=f1e386]: 03 / SMART HARDWARE
+        - heading "Система управляет не только данными. Но и светом." [level=2] [ref=f1e387]
+        - paragraph [ref=f1e388]: TumarSystem может взаимодействовать с оборудованием клуба через Arduino и ESP32. Сценарии связывают состояние стола с освещением.
+      - generic [ref=f1e389]:
+        - generic [ref=f1e390]: SMART LIGHTING / 01
+        - generic [ref=f1e399]:
+          - generic [ref=f1e400]: LIGHTING SCENARIOS
+          - button "01 Стол занят → свет включён" [ref=f1e401] [cursor=pointer]:
+            - generic [ref=f1e402]: "01"
+            - text: Стол занят → свет включён
+          - button "02 Игра завершена → свет выключен" [ref=f1e405] [cursor=pointer]:
+            - generic [ref=f1e406]: "02"
+            - text: Игра завершена → свет выключен
+          - button "03 Ночной режим → мягкий свет" [ref=f1e409] [cursor=pointer]:
+            - generic [ref=f1e410]: "03"
+            - text: Ночной режим → мягкий свет
+          - button "04 Турнир → отдельный сценарий" [ref=f1e413] [cursor=pointer]:
+            - generic [ref=f1e414]: "04"
+            - text: Турнир → отдельный сценарий
+          - generic [ref=f1e417]:
+            - generic [ref=f1e418]: TumarSystem
+            - generic [ref=f1e421]: CONTROL
+            - generic [ref=f1e424]: Arduino / ESP32
+            - generic [ref=f1e427]: LIGHT
+    - generic [ref=f1e429]:
+      - generic [ref=f1e430]:
+        - generic [ref=f1e431]:
+          - generic [ref=f1e432]: 04 / ACCESS
+          - heading "Ваш клуб — всегда под контролем" [level=2] [ref=f1e433]
+        - paragraph [ref=f1e434]: Работайте за стойкой с компьютера, проверяйте показатели с телефона и открывайте систему через веб.
+      - generic [ref=f1e435]:
+        - generic [ref=f1e436]:
+          - button "Компьютер" [ref=f1e437] [cursor=pointer]
+          - button "Ноутбук" [ref=f1e442] [cursor=pointer]
+          - button "Планшет" [ref=f1e447] [cursor=pointer]
+          - button "Телефон" [ref=f1e452] [cursor=pointer]
+          - button "Веб" [ref=f1e457] [cursor=pointer]
+        - generic "Концепция интерфейса · демонстрационные данные" [ref=f1e467]:
+          - generic [ref=f1e468]: T·
+          - generic [ref=f1e485]:
+            - generic [ref=f1e486]:
+              - generic [ref=f1e487]: TUMARSYSTEM / OVERVIEW
+              - generic [ref=f1e488]: •••
+            - generic [ref=f1e489]:
+              - generic [ref=f1e490]:
+                - generic [ref=f1e491]: CLUB MANAGEMENT
+                - strong [ref=f1e492]: Состояние зала
+              - generic [ref=f1e493]: LIVE
+            - generic [ref=f1e495]:
+              - generic [ref=f1e496]:
+                - generic [ref=f1e497]: TABLES ACTIVE
+                - strong [ref=f1e498]:
+                  - text: "04"
+                  - emphasis [ref=f1e499]: / 08
+              - generic [ref=f1e500]:
+                - generic [ref=f1e501]: SHIFT
+                - strong [ref=f1e502]: —
+              - generic [ref=f1e503]:
+                - generic [ref=f1e504]: Свет включён
+                - strong [ref=f1e505]:
+                  - text: "04"
+                  - emphasis [ref=f1e506]: / 08
+            - generic [ref=f1e507]:
+              - generic [ref=f1e513]:
+                - strong [ref=f1e514]: № 01
+                - generic [ref=f1e515]: Идёт игра
+              - generic [ref=f1e521]:
+                - strong [ref=f1e522]: № 02
+                - generic [ref=f1e523]: Свободен
+              - generic [ref=f1e529]:
+                - strong [ref=f1e530]: № 03
+                - generic [ref=f1e531]: Идёт игра
+              - generic [ref=f1e537]:
+                - strong [ref=f1e538]: № 04
+                - generic [ref=f1e539]: Идёт игра
+              - generic [ref=f1e545]:
+                - strong [ref=f1e546]: № 05
+                - generic [ref=f1e547]: Свободен
+              - generic [ref=f1e553]:
+                - strong [ref=f1e554]: № 06
+                - generic [ref=f1e555]: Бронь
+            - generic [ref=f1e556]: Концепция интерфейса · демонстрационные данные
+    - generic [ref=f1e558]:
+      - generic [ref=f1e559]:
+        - generic [ref=f1e560]: 05 / CUSTOM DEVELOPMENT
+        - heading "Нужна особая функция?" [level=2] [ref=f1e561]
+        - paragraph [ref=f1e562]: "TumarSystem можно адаптировать под особенности вашего клуба: модуль, интеграция, отчёт, оборудование или собственный рабочий процесс."
+        - link "Обсудить дополнительную функцию" [ref=f1e563] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f1e567]: +
+    - generic [ref=f1e573]:
+      - generic [ref=f1e574]:
+        - generic [ref=f1e575]: 06 / FAQ
+        - heading "Частые вопросы" [level=2] [ref=f1e576]
+        - paragraph [ref=f1e577]: Короткие ответы о продукте и его возможностях.
+        - link "FAQ" [ref=f1e578] [cursor=pointer]:
+          - /url: /faq
+      - generic [ref=f1e581]:
+        - group [ref=f1e582]:
+          - generic "01 Что такое TumarSystem? +" [ref=f1e583] [cursor=pointer]:
+            - generic [ref=f1e584]: "01"
+            - text: Что такое TumarSystem?
+            - generic [ref=f1e585]: +
+        - group [ref=f1e586]:
+          - generic "02 Для какого клуба подходит система? +" [ref=f1e587] [cursor=pointer]:
+            - generic [ref=f1e588]: "02"
+            - text: Для какого клуба подходит система?
+            - generic [ref=f1e589]: +
+        - group [ref=f1e590]:
+          - generic "03 Работает ли система на телефоне и ноутбуке? +" [ref=f1e591] [cursor=pointer]:
+            - generic [ref=f1e592]: "03"
+            - text: Работает ли система на телефоне и ноутбуке?
+            - generic [ref=f1e593]: +
+        - group [ref=f1e594]:
+          - generic "04 Что такое TumarSystem CRM и почему она в Beta? +" [ref=f1e595] [cursor=pointer]:
+            - generic [ref=f1e596]: "04"
+            - text: Что такое TumarSystem CRM и почему она в Beta?
+            - generic [ref=f1e597]: +
+        - group [ref=f1e598]:
+          - generic "05 Что такое Smart Lighting? +" [ref=f1e599] [cursor=pointer]:
+            - generic [ref=f1e600]: "05"
+            - text: Что такое Smart Lighting?
+            - generic [ref=f1e601]: +
+        - group [ref=f1e602]:
+          - generic "06 Можно ли подключить Arduino или ESP32? +" [ref=f1e603] [cursor=pointer]:
+            - generic [ref=f1e604]: "06"
+            - text: Можно ли подключить Arduino или ESP32?
+            - generic [ref=f1e605]: +
+    - generic [ref=f1e607]:
+      - generic [ref=f1e608]:
+        - generic [ref=f1e609]: 07 / CONTACT
+        - heading "Давайте обсудим ваш клуб" [level=2] [ref=f1e610]
+        - paragraph [ref=f1e611]: Контактный канал команды будет опубликован после настройки.
+        - generic [ref=f1e612]: T·
+      - generic [ref=f1e613]:
+        - generic [ref=f1e614]:
+          - generic [ref=f1e615]: INQUIRY / TUMARSYSTEM
+          - generic [ref=f1e616]: ↗
+        - generic [ref=f1e617]:
+          - generic [ref=f1e618]:
+            - text: Имя
+            - textbox "Имя" [disabled] [ref=f1e619]:
+              - /placeholder: —
+          - generic [ref=f1e620]:
+            - text: Телефон
+            - textbox "Телефон" [disabled] [ref=f1e621]:
+              - /placeholder: —
+          - generic [ref=f1e622]:
+            - text: Email
+            - textbox "Email" [disabled] [ref=f1e623]:
+              - /placeholder: —
+          - generic [ref=f1e624]:
+            - text: Компания / клуб
+            - textbox "Компания / клуб" [disabled] [ref=f1e625]:
+              - /placeholder: —
+          - generic [ref=f1e626]:
+            - text: Сообщение
+            - textbox "Сообщение" [disabled] [ref=f1e627]:
+              - /placeholder: —
+        - button "Отправить запрос" [disabled] [ref=f1e628]
+        - paragraph [ref=f1e631]: Онлайн-отправка заявок пока недоступна. Мы не сохраняем данные этой формы.
+  - contentinfo [ref=f1e632]:
+    - generic [ref=f1e633]:
+      - generic [ref=f1e634]:
+        - link "TumarSystem" [ref=f1e635] [cursor=pointer]:
+          - /url: /
+        - paragraph [ref=f1e642]: Интеллектуальная система управления бильярдным клубом.
+        - generic [ref=f1e643]: SOFTWARE + CRM + SMART HARDWARE
+      - generic [ref=f1e644]:
+        - strong [ref=f1e645]: TUMARSYSTEM
+        - link "Возможности" [ref=f1e646] [cursor=pointer]:
+          - /url: /features
+        - link "CRM" [ref=f1e647] [cursor=pointer]:
+          - /url: /crm
+        - link "Smart" [ref=f1e648] [cursor=pointer]:
+          - /url: /smart
+        - link "Демо" [ref=f1e649] [cursor=pointer]:
+          - /url: /demo
+        - link "FAQ" [ref=f1e650] [cursor=pointer]:
+          - /url: /faq
+        - link "Контакты" [ref=f1e651] [cursor=pointer]:
+          - /url: /contact
+        - link "Тарифы" [ref=f1e652] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=f1e653]:
+        - strong [ref=f1e654]: О компании
+        - link "О компании" [ref=f1e655] [cursor=pointer]:
+          - /url: /company
+        - link "Реквизиты" [ref=f1e656] [cursor=pointer]:
+          - /url: /details
+        - generic [ref=f1e657]: Политика конфиденциальности
+        - generic [ref=f1e658]: Условия использования
+      - generic [ref=f1e659]:
+        - strong [ref=f1e660]: LANGUAGE
+        - generic [ref=f1e661]:
+          - button "RU" [ref=f1e662] [cursor=pointer]
+          - button "KY" [ref=f1e663] [cursor=pointer]
+          - button "EN" [ref=f1e664] [cursor=pointer]
+    - generic [ref=f1e665]:
+      - generic [ref=f1e666]: © TumarSystem
+      - generic [ref=f1e667]: BUILT FOR THE GAME.

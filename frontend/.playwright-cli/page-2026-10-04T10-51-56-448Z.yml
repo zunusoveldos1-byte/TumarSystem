@@ -1,0 +1,177 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - link "TumarSystem" [ref=f1e5] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f1e12]:
+          - generic "Language" [ref=f1e13]:
+            - button "RU" [ref=f1e14] [cursor=pointer]
+            - button "KY" [ref=f1e15] [cursor=pointer]
+            - button "EN" [pressed] [ref=f1e16] [cursor=pointer]
+          - button "Open menu" [ref=f1e17] [cursor=pointer]
+    - main [ref=f1e19]:
+      - generic [ref=f1e21]:
+        - generic [ref=f1e22]: PRODUCT / 01
+        - heading "One system for the whole club" [level=1] [ref=f1e23]
+        - paragraph [ref=f1e24]: From the first booking to closing a shift, key workflows live in one interface.
+      - generic [ref=f1e27]:
+        - generic [ref=f1e28]:
+          - generic [ref=f1e29]:
+            - generic [ref=f1e30]: 01 / MANAGEMENT
+            - heading "One system for the whole club" [level=2] [ref=f1e31]
+          - paragraph [ref=f1e32]: From the first booking to closing a shift, key workflows live in one interface.
+        - generic [ref=f1e33]:
+          - generic [ref=f1e34]:
+            - heading "Tables" [level=3] [ref=f1e40]
+            - paragraph [ref=f1e41]: Status, time and lighting
+            - generic [ref=f1e42]: "01"
+          - generic [ref=f1e43]:
+            - heading "Payments" [level=3] [ref=f1e48]
+            - paragraph [ref=f1e49]: Payments and transactions
+            - generic [ref=f1e50]: "02"
+          - generic [ref=f1e51]:
+            - heading "Shifts" [level=3] [ref=f1e55]
+            - paragraph [ref=f1e56]: Open and close
+            - generic [ref=f1e57]: "03"
+          - generic [ref=f1e58]:
+            - heading "Bookings" [level=3] [ref=f1e62]
+            - paragraph [ref=f1e63]: A clear schedule
+            - generic [ref=f1e64]: "04"
+          - generic [ref=f1e65]:
+            - heading "Guests" [level=3] [ref=f1e70]
+            - paragraph [ref=f1e71]: Visit history
+            - generic [ref=f1e72]: "05"
+          - generic [ref=f1e73]:
+            - heading "CRM" [level=3] [ref=f1e78]
+            - paragraph [ref=f1e79]: Stay connected
+            - generic [ref=f1e80]: "06"
+          - generic [ref=f1e81]:
+            - heading "Staff" [level=3] [ref=f1e85]
+            - paragraph [ref=f1e86]: Role based access
+            - generic [ref=f1e87]: "07"
+          - generic [ref=f1e88]:
+            - heading "Rates" [level=3] [ref=f1e92]
+            - paragraph [ref=f1e93]: Flexible play rules
+            - generic [ref=f1e94]: "08"
+          - generic [ref=f1e95]:
+            - heading "Analytics" [level=3] [ref=f1e101]
+            - paragraph [ref=f1e102]: Operations at a glance
+            - generic [ref=f1e103]: "09"
+          - generic [ref=f1e104]:
+            - heading "Smart Lighting" [level=3] [ref=f1e108]
+            - paragraph [ref=f1e109]: Lighting scenes
+            - generic [ref=f1e110]: "10"
+          - generic [ref=f1e111]:
+            - heading "Arduino / ESP32" [level=3] [ref=f1e116]
+            - paragraph [ref=f1e117]: Connect equipment
+            - generic [ref=f1e118]: "11"
+          - generic [ref=f1e119]:
+            - heading "Notifications" [level=3] [ref=f1e126]
+            - paragraph [ref=f1e127]: Important events
+            - generic [ref=f1e128]: "12"
+      - generic [ref=f1e130]:
+        - generic [ref=f1e131]:
+          - generic [ref=f1e132]:
+            - generic [ref=f1e133]: 04 / ACCESS
+            - heading "Your club, always within reach" [level=2] [ref=f1e134]
+          - paragraph [ref=f1e135]: Work at the counter on a computer, check metrics on your phone and access the system on the web.
+        - generic [ref=f1e136]:
+          - generic [ref=f1e137]:
+            - button "Desktop" [ref=f1e138] [cursor=pointer]
+            - button "Laptop" [ref=f1e143] [cursor=pointer]
+            - button "Tablet" [ref=f1e148] [cursor=pointer]
+            - button "Phone" [ref=f1e153] [cursor=pointer]
+            - button "Web" [ref=f1e158] [cursor=pointer]
+          - generic "Interface concept · sample data" [ref=f1e168]:
+            - generic [ref=f1e169]: T·
+            - generic [ref=f1e186]:
+              - generic [ref=f1e187]:
+                - generic [ref=f1e188]: TUMARSYSTEM / OVERVIEW
+                - generic [ref=f1e189]: •••
+              - generic [ref=f1e190]:
+                - generic [ref=f1e191]:
+                  - generic [ref=f1e192]: CLUB MANAGEMENT
+                  - strong [ref=f1e193]: Floor status
+                - generic [ref=f1e194]: LIVE
+              - generic [ref=f1e196]:
+                - generic [ref=f1e197]:
+                  - generic [ref=f1e198]: TABLES ACTIVE
+                  - strong [ref=f1e199]:
+                    - text: "04"
+                    - emphasis [ref=f1e200]: / 08
+                - generic [ref=f1e201]:
+                  - generic [ref=f1e202]: SHIFT
+                  - strong [ref=f1e203]: —
+                - generic [ref=f1e204]:
+                  - generic [ref=f1e205]: Lights on
+                  - strong [ref=f1e206]:
+                    - text: "04"
+                    - emphasis [ref=f1e207]: / 08
+              - generic [ref=f1e208]:
+                - generic [ref=f1e214]:
+                  - strong [ref=f1e215]: № 01
+                  - generic [ref=f1e216]: In play
+                - generic [ref=f1e222]:
+                  - strong [ref=f1e223]: № 02
+                  - generic [ref=f1e224]: Available
+                - generic [ref=f1e230]:
+                  - strong [ref=f1e231]: № 03
+                  - generic [ref=f1e232]: In play
+                - generic [ref=f1e238]:
+                  - strong [ref=f1e239]: № 04
+                  - generic [ref=f1e240]: In play
+                - generic [ref=f1e246]:
+                  - strong [ref=f1e247]: № 05
+                  - generic [ref=f1e248]: Available
+                - generic [ref=f1e254]:
+                  - strong [ref=f1e255]: № 06
+                  - generic [ref=f1e256]: Reserved
+              - generic [ref=f1e257]: Interface concept · sample data
+      - generic [ref=f1e259]:
+        - generic [ref=f1e260]:
+          - generic [ref=f1e261]: 05 / CUSTOM DEVELOPMENT
+          - heading "Need something specific?" [level=2] [ref=f1e262]
+          - paragraph [ref=f1e263]: TumarSystem can be adapted to your club with a new module, integration, report, equipment connection or workflow.
+          - link "Discuss a custom feature" [ref=f1e264] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f1e268]: +
+    - contentinfo [ref=f1e273]:
+      - generic [ref=f1e274]:
+        - generic [ref=f1e275]:
+          - link "TumarSystem" [ref=f1e276] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f1e283]: An intelligent system for billiard club management.
+          - generic [ref=f1e284]: SOFTWARE + CRM + SMART HARDWARE
+        - generic [ref=f1e285]:
+          - strong [ref=f1e286]: TUMARSYSTEM
+          - link "Features" [ref=f1e287] [cursor=pointer]:
+            - /url: /features
+          - link "CRM" [ref=f1e288] [cursor=pointer]:
+            - /url: /crm
+          - link "Smart" [ref=f1e289] [cursor=pointer]:
+            - /url: /smart
+          - link "Demo" [ref=f1e290] [cursor=pointer]:
+            - /url: /demo
+          - link "FAQ" [ref=f1e291] [cursor=pointer]:
+            - /url: /faq
+          - link "Contact" [ref=f1e292] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f1e293]:
+          - strong [ref=f1e294]: About
+          - link "About" [ref=f1e295] [cursor=pointer]:
+            - /url: /company
+          - link "Company details" [ref=f1e296] [cursor=pointer]:
+            - /url: /details
+          - generic [ref=f1e297]: Privacy policy
+          - generic [ref=f1e298]: Terms of use
+        - generic [ref=f1e299]:
+          - strong [ref=f1e300]: LANGUAGE
+          - generic [ref=f1e301]:
+            - button "RU" [ref=f1e302] [cursor=pointer]
+            - button "KY" [ref=f1e303] [cursor=pointer]
+            - button "EN" [ref=f1e304] [cursor=pointer]
+      - generic [ref=f1e305]:
+        - generic [ref=f1e306]: © TumarSystem
+        - generic [ref=f1e307]: BUILT FOR THE GAME.
+  - alert [ref=f1e308]

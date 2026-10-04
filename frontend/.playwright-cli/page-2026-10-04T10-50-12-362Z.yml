@@ -1,0 +1,370 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "TumarSystem" [ref=e5] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e19]:
+          - generic "Language" [ref=e20]:
+            - button "RU" [ref=e21] [cursor=pointer]
+            - button "KY" [ref=e22] [cursor=pointer]
+            - button "EN" [active] [pressed] [ref=e23] [cursor=pointer]
+          - button "Open menu" [ref=e602] [cursor=pointer]
+    - main [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]: SMART BILLIARD CLUB SYSTEM
+            - heading "One system. Your whole club." [level=1] [ref=e604]
+            - paragraph [ref=e35]: Manage tables, payments, shifts, guests and automation from one workspace.
+            - generic [ref=e36]:
+              - link "Explore the system" [ref=e605] [cursor=pointer]:
+                - /url: /features
+              - link "View demo" [ref=e606] [cursor=pointer]:
+                - /url: /demo
+            - generic [ref=e44]:
+              - generic [ref=e45]: DESKTOP
+              - generic [ref=e48]: MOBILE
+              - generic [ref=e51]: WEB
+              - generic [ref=e57]: HARDWARE
+          - generic [ref=e64]:
+            - generic [ref=e65]: SYSTEM ONLINE
+            - generic "Interface concept · sample data" [ref=e607]:
+              - generic [ref=e68]: T·
+              - generic [ref=e90]:
+                - generic [ref=e91]:
+                  - generic [ref=e92]: TUMARSYSTEM / OVERVIEW
+                  - generic [ref=e93]: •••
+                - generic [ref=e94]:
+                  - generic [ref=e95]:
+                    - generic [ref=e96]: CLUB MANAGEMENT
+                    - strong [ref=e97]: Floor status
+                  - generic [ref=e98]: LIVE
+                - generic [ref=e100]:
+                  - generic [ref=e101]:
+                    - generic [ref=e102]: TABLES ACTIVE
+                    - strong [ref=e103]:
+                      - text: "04"
+                      - emphasis [ref=e104]: / 08
+                  - generic [ref=e105]:
+                    - generic [ref=e106]: SHIFT
+                    - strong [ref=e107]: —
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: Lights on
+                    - strong [ref=e110]:
+                      - text: "04"
+                      - emphasis [ref=e111]: / 08
+                - generic [ref=e112]:
+                  - generic [ref=e118]:
+                    - strong [ref=e119]: № 01
+                    - generic [ref=e120]: In play
+                  - generic [ref=e126]:
+                    - strong [ref=e127]: № 02
+                    - generic [ref=e128]: Available
+                  - generic [ref=e134]:
+                    - strong [ref=e135]: № 03
+                    - generic [ref=e136]: In play
+                  - generic [ref=e142]:
+                    - strong [ref=e143]: № 04
+                    - generic [ref=e144]: In play
+                  - generic [ref=e150]:
+                    - strong [ref=e151]: № 05
+                    - generic [ref=e152]: Available
+                  - generic [ref=e158]:
+                    - strong [ref=e159]: № 06
+                    - generic [ref=e160]: Reserved
+                - generic [ref=e161]: Interface concept · sample data
+            - generic [ref=e167]:
+              - generic [ref=e168]: SMART LIGHTING
+              - strong [ref=e169]: Lights on
+        - generic [ref=e171]:
+          - generic [ref=e172]: 01 — 05
+          - generic [ref=e173]: SCROLL TO EXPLORE
+      - generic [ref=e177]:
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - generic [ref=e180]: 01 / MANAGEMENT
+            - heading "One system for the whole club" [level=2] [ref=e608]
+          - paragraph [ref=e182]: From the first booking to closing a shift, key workflows live in one interface.
+        - generic [ref=e183]:
+          - generic [ref=e609]:
+            - heading "Tables" [level=3] [ref=e615]
+            - paragraph [ref=e616]: Status, time and lighting
+            - generic [ref=e617]: "01"
+          - generic [ref=e618]:
+            - heading "Payments" [level=3] [ref=e623]
+            - paragraph [ref=e624]: Payments and transactions
+            - generic [ref=e625]: "02"
+          - generic [ref=e626]:
+            - heading "Shifts" [level=3] [ref=e630]
+            - paragraph [ref=e631]: Open and close
+            - generic [ref=e632]: "03"
+          - generic [ref=e633]:
+            - heading "Bookings" [level=3] [ref=e637]
+            - paragraph [ref=e638]: A clear schedule
+            - generic [ref=e639]: "04"
+          - generic [ref=e640]:
+            - heading "Guests" [level=3] [ref=e645]
+            - paragraph [ref=e646]: Visit history
+            - generic [ref=e647]: "05"
+          - generic [ref=e223]:
+            - heading "CRM" [level=3] [ref=e228]
+            - paragraph [ref=e229]: Stay connected
+            - generic [ref=e230]: "06"
+          - generic [ref=e648]:
+            - heading "Staff" [level=3] [ref=e652]
+            - paragraph [ref=e653]: Role based access
+            - generic [ref=e654]: "07"
+          - generic [ref=e655]:
+            - heading "Rates" [level=3] [ref=e659]
+            - paragraph [ref=e660]: Flexible play rules
+            - generic [ref=e661]: "08"
+          - generic [ref=e662]:
+            - heading "Analytics" [level=3] [ref=e668]
+            - paragraph [ref=e669]: Operations at a glance
+            - generic [ref=e670]: "09"
+          - generic [ref=e254]:
+            - heading "Smart Lighting" [level=3] [ref=e258]
+            - paragraph [ref=e259]: Lighting scenes
+            - generic [ref=e260]: "10"
+          - generic [ref=e261]:
+            - heading "Arduino / ESP32" [level=3] [ref=e266]
+            - paragraph [ref=e267]: Connect equipment
+            - generic [ref=e268]: "11"
+          - generic [ref=e671]:
+            - heading "Notifications" [level=3] [ref=e678]
+            - paragraph [ref=e679]: Important events
+            - generic [ref=e680]: "12"
+        - link "Features" [ref=e681] [cursor=pointer]:
+          - /url: /features
+      - generic [ref=e283]:
+        - generic [ref=e284]:
+          - generic [ref=e285]: 02 / RELATIONSHIPS
+          - heading "TumarSystem CRM BETA" [level=2] [ref=e286]:
+            - text: TumarSystem CRM
+            - generic [ref=e287]: BETA
+          - paragraph [ref=e288]: "Know your guests: profiles, visits, game history, bookings, preferred rates, rewards and notes in one place."
+          - generic [ref=e289]: CRM is in Beta. We are expanding it gradually.
+          - link "CRM" [ref=e291] [cursor=pointer]:
+            - /url: /crm
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - generic [ref=e297]: CRM / GUEST PROFILE
+              - generic [ref=e298]: •••
+            - generic [ref=e299]: A
+            - strong [ref=e300]: A. K.
+            - generic [ref=e301]: Guest profile · BETA
+            - generic [ref=e302]:
+              - generic [ref=e303]:
+                - generic [ref=e304]: Visits
+                - strong [ref=e305]: —
+              - generic [ref=e306]:
+                - generic [ref=e307]: Game history
+                - strong [ref=e308]: —
+              - generic [ref=e309]:
+                - generic [ref=e310]: Preferences
+                - strong [ref=e311]: —
+            - generic [ref=e312]: ✦
+          - generic [ref=e316]: CRM ● BETA
+      - generic [ref=e318]:
+        - generic [ref=e319]:
+          - generic [ref=e320]: 03 / SMART HARDWARE
+          - heading "Manage more than data. Manage the lights." [level=2] [ref=e682]
+          - paragraph [ref=e322]: TumarSystem can connect with club hardware through Arduino and ESP32. Scenarios link table status to lighting.
+        - generic [ref=e323]:
+          - generic [ref=e324]: SMART LIGHTING / 01
+          - generic [ref=e333]:
+            - generic [ref=e334]: LIGHTING SCENARIOS
+            - button "01 Table in play → lights on" [ref=e683] [cursor=pointer]:
+              - generic [ref=e684]: "01"
+              - text: Table in play → lights on
+            - button "02 Game ends → lights off" [ref=e687] [cursor=pointer]:
+              - generic [ref=e688]: "02"
+              - text: Game ends → lights off
+            - button "03 Night mode → softer light" [ref=e691] [cursor=pointer]:
+              - generic [ref=e692]: "03"
+              - text: Night mode → softer light
+            - button "04 Tournament → custom scene" [ref=e695] [cursor=pointer]:
+              - generic [ref=e696]: "04"
+              - text: Tournament → custom scene
+            - generic [ref=e351]:
+              - generic [ref=e352]: TumarSystem
+              - generic [ref=e355]: CONTROL
+              - generic [ref=e358]: Arduino / ESP32
+              - generic [ref=e361]: LIGHT
+      - generic [ref=e363]:
+        - generic [ref=e364]:
+          - generic [ref=e365]:
+            - generic [ref=e366]: 04 / ACCESS
+            - heading "Your club, always within reach" [level=2] [ref=e699]
+          - paragraph [ref=e368]: Work at the counter on a computer, check metrics on your phone and access the system on the web.
+        - generic [ref=e369]:
+          - generic [ref=e370]:
+            - button "Desktop" [ref=e700] [cursor=pointer]
+            - button "Laptop" [ref=e705] [cursor=pointer]
+            - button "Tablet" [ref=e710] [cursor=pointer]
+            - button "Phone" [ref=e715] [cursor=pointer]
+            - button "Web" [ref=e720] [cursor=pointer]
+          - generic "Interface concept · sample data" [ref=e728]:
+            - generic [ref=e402]: T·
+            - generic [ref=e419]:
+              - generic [ref=e420]:
+                - generic [ref=e421]: TUMARSYSTEM / OVERVIEW
+                - generic [ref=e422]: •••
+              - generic [ref=e423]:
+                - generic [ref=e424]:
+                  - generic [ref=e425]: CLUB MANAGEMENT
+                  - strong [ref=e426]: Floor status
+                - generic [ref=e427]: LIVE
+              - generic [ref=e429]:
+                - generic [ref=e430]:
+                  - generic [ref=e431]: TABLES ACTIVE
+                  - strong [ref=e432]:
+                    - text: "04"
+                    - emphasis [ref=e433]: / 08
+                - generic [ref=e434]:
+                  - generic [ref=e435]: SHIFT
+                  - strong [ref=e436]: —
+                - generic [ref=e437]:
+                  - generic [ref=e438]: Lights on
+                  - strong [ref=e439]:
+                    - text: "04"
+                    - emphasis [ref=e440]: / 08
+              - generic [ref=e441]:
+                - generic [ref=e447]:
+                  - strong [ref=e448]: № 01
+                  - generic [ref=e449]: In play
+                - generic [ref=e455]:
+                  - strong [ref=e456]: № 02
+                  - generic [ref=e457]: Available
+                - generic [ref=e463]:
+                  - strong [ref=e464]: № 03
+                  - generic [ref=e465]: In play
+                - generic [ref=e471]:
+                  - strong [ref=e472]: № 04
+                  - generic [ref=e473]: In play
+                - generic [ref=e479]:
+                  - strong [ref=e480]: № 05
+                  - generic [ref=e481]: Available
+                - generic [ref=e487]:
+                  - strong [ref=e488]: № 06
+                  - generic [ref=e489]: Reserved
+              - generic [ref=e490]: Interface concept · sample data
+      - generic [ref=e492]:
+        - generic [ref=e493]:
+          - generic [ref=e494]: 05 / CUSTOM DEVELOPMENT
+          - heading "Need something specific?" [level=2] [ref=e729]
+          - paragraph [ref=e496]: TumarSystem can be adapted to your club with a new module, integration, report, equipment connection or workflow.
+          - link "Discuss a custom feature" [ref=e730] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e501]: +
+      - generic [ref=e507]:
+        - generic [ref=e508]:
+          - generic [ref=e509]: 06 / FAQ
+          - heading "Frequently asked questions" [level=2] [ref=e731]
+          - paragraph [ref=e511]: Clear answers about the product and its capabilities.
+          - link "FAQ" [ref=e512] [cursor=pointer]:
+            - /url: /faq
+        - generic [ref=e515]:
+          - group [ref=e732]:
+            - generic "01 What is TumarSystem? +" [ref=e733] [cursor=pointer]:
+              - generic [ref=e734]: "01"
+              - text: What is TumarSystem?
+              - generic [ref=e735]: +
+          - group [ref=e736]:
+            - generic "02 Which clubs is it for? +" [ref=e737] [cursor=pointer]:
+              - generic [ref=e738]: "02"
+              - text: Which clubs is it for?
+              - generic [ref=e739]: +
+          - group [ref=e740]:
+            - generic "03 Does it work on phones and laptops? +" [ref=e741] [cursor=pointer]:
+              - generic [ref=e742]: "03"
+              - text: Does it work on phones and laptops?
+              - generic [ref=e743]: +
+          - group [ref=e744]:
+            - generic "04 What is CRM and why Beta? +" [ref=e745] [cursor=pointer]:
+              - generic [ref=e746]: "04"
+              - text: What is CRM and why Beta?
+              - generic [ref=e747]: +
+          - group [ref=e748]:
+            - generic "05 What is Smart Lighting? +" [ref=e749] [cursor=pointer]:
+              - generic [ref=e750]: "05"
+              - text: What is Smart Lighting?
+              - generic [ref=e751]: +
+          - group [ref=e752]:
+            - generic "06 Can I connect Arduino or ESP32? +" [ref=e753] [cursor=pointer]:
+              - generic [ref=e754]: "06"
+              - text: Can I connect Arduino or ESP32?
+              - generic [ref=e755]: +
+      - generic [ref=e541]:
+        - generic [ref=e542]:
+          - generic [ref=e543]: 07 / CONTACT
+          - heading "Let's talk about your club" [level=2] [ref=e756]
+          - paragraph [ref=e545]: The team's contact channel will be published when ready.
+        - generic [ref=e547]:
+          - generic [ref=e548]:
+            - generic [ref=e549]: INQUIRY / TUMARSYSTEM
+            - generic [ref=e550]: ↗
+          - generic [ref=e551]:
+            - generic [ref=e757]:
+              - text: Name
+              - textbox "Name" [disabled] [ref=e758]:
+                - /placeholder: —
+            - generic [ref=e759]:
+              - text: Phone
+              - textbox "Phone" [disabled] [ref=e760]:
+                - /placeholder: —
+            - generic [ref=e556]:
+              - text: Email
+              - textbox "Email" [disabled] [ref=e557]:
+                - /placeholder: —
+            - generic [ref=e761]:
+              - text: Company / club
+              - textbox "Company / club" [disabled] [ref=e762]:
+                - /placeholder: —
+            - generic [ref=e763]:
+              - text: Message
+              - textbox "Message" [disabled] [ref=e764]:
+                - /placeholder: —
+          - button "Send request" [disabled] [ref=e765]
+          - paragraph [ref=e565]: Online inquiries are not available yet. We do not store the data in this form.
+    - contentinfo [ref=e566]:
+      - generic [ref=e567]:
+        - generic [ref=e568]:
+          - link "TumarSystem" [ref=e569] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e576]: An intelligent system for billiard club management.
+          - generic [ref=e577]: SOFTWARE + CRM + SMART HARDWARE
+        - generic [ref=e578]:
+          - strong [ref=e579]: TUMARSYSTEM
+          - link "Features" [ref=e766] [cursor=pointer]:
+            - /url: /features
+          - link "CRM" [ref=e581] [cursor=pointer]:
+            - /url: /crm
+          - link "Smart" [ref=e582] [cursor=pointer]:
+            - /url: /smart
+          - link "Demo" [ref=e767] [cursor=pointer]:
+            - /url: /demo
+          - link "FAQ" [ref=e584] [cursor=pointer]:
+            - /url: /faq
+          - link "Contact" [ref=e768] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e586]:
+          - strong [ref=e587]: About
+          - link "About" [ref=e769] [cursor=pointer]:
+            - /url: /company
+          - link "Company details" [ref=e770] [cursor=pointer]:
+            - /url: /details
+          - generic [ref=e590]: Privacy policy
+          - generic [ref=e591]: Terms of use
+        - generic [ref=e592]:
+          - strong [ref=e593]: LANGUAGE
+          - generic [ref=e594]:
+            - button "RU" [ref=e595] [cursor=pointer]
+            - button "KY" [ref=e596] [cursor=pointer]
+            - button "EN" [ref=e597] [cursor=pointer]
+      - generic [ref=e598]:
+        - generic [ref=e599]: © TumarSystem
+        - generic [ref=e600]: BUILT FOR THE GAME.
+  - alert [ref=e601]
