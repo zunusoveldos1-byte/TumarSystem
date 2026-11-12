@@ -1,5 +1,6 @@
 import { LoginForm } from "@/components/login-form";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function LoginPage() {
   return (
@@ -9,6 +10,7 @@ export default function LoginPage() {
           <h1 id="welcome-title">Вход в систему</h1>
           <p className="auth-subtitle">Войдите, чтобы начать рабочую смену.</p>
           <LoginForm />
+          <Link href="/features" style={{ display: "inline-block", marginTop: 24, color: "#2fe09b", fontSize: 13 }}>Возможности TumarSystem →</Link>
         </div>
       </section>
       <section className="visual-panel" aria-label="Атмосфера бильярдного клуба">
